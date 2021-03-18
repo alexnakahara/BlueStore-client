@@ -1,0 +1,38 @@
+.-card {
+  display: flex;
+  position: relative;
+  border: 2px solid;
+  border-radius: 8px;
+  height: 109px;
+  margin-bottom: 12px;
+  column-gap: 12px;
+  &__img {
+    width: 100px;
+    padding: 6px;
+    border-radius: 7px;
+  }
+  &__body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  &__price{
+    font-weight: bold;
+  }
+  &__btn-remove{
+    position: absolute;
+    right: 0;
+    top:0;
+    
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+
+.-footer{
+  margin-top: 12px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
