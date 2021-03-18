@@ -9,6 +9,7 @@ import { CarrinhoComponent } from './carrinho/carrinho.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { PedidoConfirmacaoComponent } from './pedido-confirmacao/pedido-confirmacao.component';
+import { NgxLoadingModule } from 'ngx-loading';
 @NgModule({
   declarations: [
     ViewComponent,
@@ -23,6 +24,8 @@ import { PedidoConfirmacaoComponent } from './pedido-confirmacao/pedido-confirma
     ReactiveFormsModule,
     FormsModule,
     FontAwesomeModule,
+    NgxLoadingModule.forRoot({})
+
   ]
 })
 export class ViewModule { }
